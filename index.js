@@ -7,7 +7,7 @@ import { Routine } from './DB/schema.js'
 
 import { app } from './app.js'
 const port = 4000
-const host = "192.168.29.137"
+const host = "192.168.29.159"
 
 DatabaseConnect()
 
