@@ -120,6 +120,11 @@ app.post('/studentData',async(req,res)=>{
   }
 })
 
+app.post('/test',async()=>{
+ const {name} = req.body
+ res.send('Kaka')
+})
+
 
 app.post('/', async (req, res) => {
   try {
